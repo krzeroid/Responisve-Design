@@ -1,0 +1,97 @@
+@media screen and (min-width: 700px) {
+  .header__logo {
+    height: 50px;
+    margin-bottom: 22px;
+  }
+  .header__title {
+    font-size: 40px;
+  }
+
+  /*
+  hero
+  */
+
+  .hero {
+    width: 50%;
+  }
+
+  /*
+  top news
+  */
+
+  .top-news {
+    order: 0;
+    width: 50%;
+    margin-top: -12px;
+  }
+
+  /*
+  scores
+  */
+
+  .scores {
+    order: 1;
+    width: 50%;
+  }
+  .scores__table {
+    table-layout: fixed;
+  }
+
+  /*
+  weather
+  */
+
+  .weather {
+    order: 2;
+    width: 50%;
+    margin-top: 36px;
+  }
+  .weather__location, .weather__desc {
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+  }
+  .weather__desc {
+    font-size: 15px;
+  }
+  .weather__today__temp, .weather__today__deg {
+    font-size: 55px;
+    font-weight: 100;
+    margin-top: 10px;
+  }
+  .weather__today__image {
+    display: none;
+  }
+  .weather__today {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .weather__next {
+    position: relative;
+  }
+  .weather__next__item {
+    margin-top: 30px;
+    width: 100%;
+    letter-spacing: .5px;
+  }
+  .weather__next__item .week {
+    float: left;
+    clear: both;
+    position: absolute;
+    }
+  .weather__next__item .abbrv {
+    display: none;
+  }
+  .weather__next__item {
+    float: right;
+    clear: both;
+  }
+  .weather__next__image {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+  }
+  .weather__next__item .deg {
+    float: right;
+}
